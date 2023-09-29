@@ -18,4 +18,5 @@ class Entry(models.Model):
         
     def __str__(self):
         """Devolve a string do modelo"""
-        return self.text[:50] + "..."    
+        return self.text[:50] + "..."
+        
